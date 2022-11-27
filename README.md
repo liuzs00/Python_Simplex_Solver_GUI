@@ -1,1 +1,1 @@
-# Python_Simplex_Solver_GUI-
+# Python_Simplex_Solver_GUI
