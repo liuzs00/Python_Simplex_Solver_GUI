@@ -24,10 +24,11 @@ def op_bf():
             if A[j,i]!=0:
                 A[j,-1]=A[j,-1]/A[j,i]
                 A[j,i]=A[j,i]/A[j,i]
-    for i in range(len(basic)):
-        op_sol[0,i]=A[i,-1]
-    output=("The optimization solution is Z = "+str(op_sol[0,0])+" with "+ str( op_sol[0,1:]))
+                op_sol[0,0]=A[0,-1]
+      
+    output=("The optimization solution is Z = "+str(op_sol[0,0]))
     return output
+
 def standard_cal():
     global A
     newWindow3 = tk.Toplevel(root)
